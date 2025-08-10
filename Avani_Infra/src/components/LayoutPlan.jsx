@@ -1,5 +1,6 @@
 import img1 from '../assets/layout_gallery/img1.jpg'
 import img2 from '../assets/layout_gallery/img2.jpg'
+import img3 from '../assets/layout_gallery/img3.jpg'
 
 const LayoutPlan = () => {
   return (
@@ -11,6 +12,7 @@ const LayoutPlan = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
       <img src={img1} alt="Layout Image 1" className="rounded-lg shadow-md" />
       <img src={img2} alt="Layout Image 2" className="rounded-lg shadow-md" />
+      <img src={img3} alt="Layout Image 3" className="rounded-lg shadow-md" />
     </div>
     
     {/* Download Brochure */}
