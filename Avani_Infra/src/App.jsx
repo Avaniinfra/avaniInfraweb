@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Amenities from './components/Amenities';
 import Footer from './components/Footer';
@@ -29,7 +29,6 @@ function App() {
     <LayoutPlan/>
     <Location/>
     <ImageGallery />
-    <SpecialOffers />
     <RegistrationForm />
     <Footer />
   </main>

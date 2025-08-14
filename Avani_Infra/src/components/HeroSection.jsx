@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef } from "react";
+
 import img1 from '../assets/image_gallery/img1.jpg';
 import img2 from '../assets/image_gallery/img2.jpg';
 import img3 from '../assets/image_gallery/img3.jpg';
 import img4 from '../assets/image_gallery/img4.jpg';
 import img5 from '../assets/image_gallery/img5.jpg';
 
-const images = [img1, img2, img3, img4, img5];
+const images = [ img1, img2, img3, img4, img5];
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -63,7 +64,7 @@ const HeroSection = () => {
       AVANI INFRA
     </h1>
     <p className="mt-4 text-lg md:text-2xl max-w-xl font-light animate-slideUp">
-      Plots + Villa Resort Project
+      Plots & Resort
     </p>
     <p className="mt-4 text-lg md:text-2xl max-w-xl font-light animate-slideUp">
       Kondagattu, Jagitial
