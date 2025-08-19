@@ -14,7 +14,7 @@ const Header = () => {
 
   {/* Center: Nav links */}
   <div className="hidden md:flex space-x-8 flex-1 justify-center">
-    {["home", "overview","amenities" ,"layout", "location","gallery", "register"].map((id) => (
+    {["home", "overview","amenities" ,"layout", "location","gallery", "register", "Contact Us"].map((id) => (
       <button
         key={id}
         onClick={() =>
@@ -47,7 +47,7 @@ const Header = () => {
       {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden bg-white bg-opacity-90 backdrop-blur-md shadow-md absolute top-full left-0 w-full z-40 flex flex-col items-center space-y-4 py-4">
-          {["home", "overview","amenities" ,"layout", "location","gallery", "register"].map((id) => (
+          {["home", "overview","amenities" ,"layout", "location","gallery", "register","Contact Us"].map((id) => (
             <button
               key={id}
               onClick={() => {
